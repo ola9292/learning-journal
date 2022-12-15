@@ -59,9 +59,18 @@ li,a{
     padding-top: 1.82rem;
 }
 .card{
+    position: relative;
     max-width: 400px;
     margin-right: 9px;
     color: #858585;
+}
+.banner{
+    background-color: orange;
+    color: #fff;
+    position: absolute;
+    padding: 5px;
+    top:0;
+    left:0
 }
 .image{
     width: 100%;

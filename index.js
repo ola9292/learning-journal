@@ -13,7 +13,9 @@ cardArr = data.slice(0,6).map(function(item){
             <p class="card-date">${item.date}</p>
             <h4 class="card-title">${item.title}</h4>
           <p class="card-body">${item.body}</P>
-            </div>`
+          <div class="banner">coming soon...</div>
+            </div>
+           `
 }).join('')
 
 cardContainer.innerHTML = cardArr
@@ -26,7 +28,9 @@ showAllBlogs.addEventListener('click',function(){
                 <p class="card-date">${item.date}</p>
                 <h4 class="card-title">${item.title}</h4>
               <p class="card-body">${item.body}</P>
-                </div>`
+              <div class="banner">coming soon...</div>
+                </div>
+               `
     }).join('')
     
     cardContainer.innerHTML = cardArr;
@@ -42,6 +46,7 @@ showLessBlogs.addEventListener('click',function(){
                 <p class="card-date">${item.date}</p>
                 <h4 class="card-title">${item.title}</h4>
               <p class="card-body">${item.body}</P>
+              <div class="banner">coming soon...</div>
                 </div>`
     }).join('')
     
