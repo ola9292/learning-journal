@@ -14,7 +14,7 @@ cardArr = data.slice(0,6).map(function(item){
             <h4 class="card-title">${item.title}</h4>
           <p class="card-body">${item.body}</P>
             </div>`
-})
+}).join('')
 
 cardContainer.innerHTML = cardArr
 
@@ -27,7 +27,7 @@ showAllBlogs.addEventListener('click',function(){
                 <h4 class="card-title">${item.title}</h4>
               <p class="card-body">${item.body}</P>
                 </div>`
-    })
+    }).join('')
     
     cardContainer.innerHTML = cardArr;
     showAllBlogs.style.display = 'none'
@@ -43,7 +43,7 @@ showLessBlogs.addEventListener('click',function(){
                 <h4 class="card-title">${item.title}</h4>
               <p class="card-body">${item.body}</P>
                 </div>`
-    })
+    }).join('')
     
     cardContainer.innerHTML = cardArr;
     showLessBlogs.style.display = 'none'
