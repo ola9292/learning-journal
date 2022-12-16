@@ -45,6 +45,9 @@ li,a{
     background-size: cover;
     color: #fff;
 }
+.intro-text{
+    color: orange;
+}
 .intro-date,.intro-header,.intro-text{
     padding: 0;
     margin: 0;
